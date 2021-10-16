@@ -1,0 +1,43 @@
+{
+    "posts" : [
+        {
+            "id" : "0",
+            "author" :{
+                "name" : "Hot",
+                "surname" : "Dog",
+                "photo_profile" : "res/profile/1.jpg",
+                "adress_mail" : "hot.dog@example.ee"
+            },
+            "create_date" : "22nd september 2021",
+            "description" : "WANTED : This young child is looking for his parents.",
+            "image" : "res/images/yoda.jpeg"
+
+        },
+        {
+            "id" : "1",
+            "author" :{
+                "name" : "Rick",
+                "surname" : "Morty",
+                "photo_profile" : "res/profile/2.jpg",
+                "adress_mail" : "Rick.Morty@example.ee"
+            },
+            "create_date" : "20nd september 2021",
+            "description" : "How many chickens would it take to be able to kill a lion?",
+            "image" : ""
+        },
+        {
+            "id" : "3",
+            "author" :{
+                "name" : "Homer",
+                "surname" : "Simpson",
+                "photo_profile" : "res/profile/3.jpg",
+                "adress_mail" : "homer.simpson@example.ee"
+            },
+            "create_date" : "19nd september 2021",
+            "description" : "Students are getting better at CSS.",
+            "image" : "res/images/yoda.jpeg"
+
+        }
+        
+    ]
+}
