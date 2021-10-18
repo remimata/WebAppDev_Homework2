@@ -110,7 +110,7 @@ small{
 }
 .image{
     margin:0 auto;
-    width:300px;
+    width:60%;
     object-fit: cover;
 }
 img + p {

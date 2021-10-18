@@ -1,7 +1,7 @@
 $(function () {
     function getPosts() {
       return $.get({
-        url: "https://api.jsonbin.io/b/616bf937aa02be1d445a969d/5",
+        url: "https://api.jsonbin.io/b/616bf937aa02be1d445a969d/6",
         success: function (response) {
           return response;
         },
