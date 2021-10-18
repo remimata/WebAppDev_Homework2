@@ -116,6 +116,7 @@ small{
 img + p {
     font-weight: bold;
     padding-left: 20px;
+    text-align: center;
 }
 p ~ input {
     margin-left: 20px;
