@@ -61,6 +61,7 @@ header{
     top:0px;
 }
 #userDisplay{
+    display:none;
     position:fixed;
     margin-left:81%;
     margin-top: 50px;
