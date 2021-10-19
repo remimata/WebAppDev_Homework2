@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,23 +11,30 @@
     <script type="text/javascript" src="res/js/app.js"></script>
     <title>postIt</title>
 </head>
+
 <body>
 
-<header>
-    <nav>
-        <div>
-            <img src="res/images/postit_image.png" alt="post">
-        </div>
-        <div class="search-container">
-            <input type="text"><button>Search</button>
-        </div>
-        <div>
-            <img src="res/images/profil.png" alt="logo_profile" id="logo_profile">
-        </div>
-    </nav>
-</header>
+    <header>
+        <nav>
+            <div>
+                <img src="res/images/postit_image.png" alt="post">
+            </div>
+            <div class="search-container">
+                <input type="text"><button>Search</button>
+            </div>
+            <div>
+                <!-- <img src="res/images/profil.png" alt="logo_profile" id="logo_profile">  -->
+                <input type="image" id='logo_profile' name="user" src="res/images/user.png" alt="User Picture" width="32" height="32"></input>
+            </div>
+        </nav>
+    </header>
+    <div id='userDisplay'> 
+        <p class='logsInfo'>Batman</p>
+        <p class='logsInfo'>bruce.wayne@gotham.dc</p>
+    </div>
 
-<section class=container>
-</section>
+    <section class=container>
+    </section>
 </body>
+
 </html>
