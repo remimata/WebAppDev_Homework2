@@ -1,3 +1,4 @@
+// Retrieve posts information from "JSONbin.io" 
 $(function () {
     function getPosts() {
       return $.get({
@@ -14,6 +15,7 @@ $(function () {
     getPosts()
       .then((res) => {
         for (let post of res) {
+          //Dynamically fills the posts section
             $(".container").append(`
             <div class="post">
                 <div class="post-header">
